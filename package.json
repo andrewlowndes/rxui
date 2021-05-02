@@ -1,0 +1,23 @@
+{
+  "name": "rxui",
+  "version": "0.1.0",
+  "description": "Simple Reactive UI library based on rxJS",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc --project tsconfig.json",
+    "start": "webpack serve"
+  },
+  "author": "Andrew Lowndes",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-loader": "^8.1.0",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.3",
+    "webpack": "^5.30.0",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "rxjs": "^6.6.7"
+  }
+}

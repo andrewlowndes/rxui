@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "lib": ["DOM"],
+    "outDir": "./build",
+    "downlevelIteration": true,
+    "strict": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "strictNullChecks": true,
+    "strictBindCallApply": true,
+    "strictPropertyInitialization": true,
+    "strictFunctionTypes": true,
+    "alwaysStrict": true,
+    "declaration": true,
+    "jsx": "react",
+    "jsxFactory": "createElement"
+  }
+}
