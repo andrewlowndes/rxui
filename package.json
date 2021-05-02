@@ -1,5 +1,5 @@
 {
-  "name": "rxui",
+  "name": "rxgui",
   "version": "0.1.0",
   "description": "Simple Reactive UI library based on rxJS",
   "main": "build/index.js",

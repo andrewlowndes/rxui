@@ -1,13 +1,13 @@
-# RxUI - Simple Reactive UI based on RxJS
+# RxGUI - Simple Reactive UI based on RxJS
 Manage subscriptions to control reactions to UI elements, based on observables.
 
 ## Install
-Ensure NodeJS is installed, install this library via `npm i rxui`
+Ensure NodeJS is installed, install this library via `npm i rxgui`
 
 ## Example
 ```javascript
 import { BehaviorSubject, merge, Subject } from 'rxjs';
-import { createElement, reactive, reactivePrototyped, ifElse } from 'rxui';
+import { createElement, reactive, reactivePrototyped, ifElse } from 'rxgui';
 
 //setup some manually managed observables for testing
 const isDisabled = new BehaviorSubject(false);
